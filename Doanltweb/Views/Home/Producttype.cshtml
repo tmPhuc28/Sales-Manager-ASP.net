@@ -1,0 +1,108 @@
+﻿@model IEnumerable<Doanltweb.Models.sanPham>
+@{
+    ViewBag.Title = "Producttype";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container py-xl-4 py-lg-2">
+    <!-- tittle heading -->
+    <h3 class="tittle-w3l text-center mb-lg-5 mb-sm-4 mb-3">
+        <span>S</span>ản
+        <span>P</span>hẩm
+    </h3>
+    <!-- //tittle heading -->
+    <div class="row">
+        <!-- product left -->
+        <div class="agileinfo-ads-display col-lg-9">
+            <div class="wrapper">
+                <!-- first section -->
+                <div class="product-sec1 px-sm-4 px-3 py-sm-5  py-3 mb-4">
+                    <h3 class="heading-tittle text-center font-italic">Sản phẩm</h3>
+                    <div class="row">
+                        @foreach (var i in Model)
+                        {
+                            <div class="col-md-4 product-men mt-5">
+                                <div class="men-pro-item simpleCart_shelfItem">
+                                    <div class="men-thumb-item text-center">
+                                        <img src="@i.hinhDD" alt="@i.tenSP" style="width:100%; height:100%">
+                                        <div class="men-cart-pro">
+                                            <div class="inner-men-cart-pro">
+                                                <a href="@Url.Action("Details", "Home", new { id =i.maSP})" class="link-product-add-cart">Xem thêm</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item-info-product text-center border-top mt-4">
+                                        <h4 class="pt-1">
+                                            <a href="@Url.Action("Details", "Home", new { id =i.maSP})">@i.tenSP</a>
+                                        </h4>
+                                        <div class="info-product-price my-2">
+                                            <span class="item_price">@String.Format("{0:0,0}", i.giaBan) đ</span>
+                                            <del>@String.Format("{0:0,0}", i.giamGia) đ</del>
+                                        </div>
+                                        <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
+                                            <a href="@Url.Action("ThemGiohang","Giohang", new { @iMaSP = @i.maSP, @strURL = Request.Url.ToString() })">
+                                                <input type="submit" name="submit" value="Thêm vào giỏ hàng" class="button" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        }
+                    </div>
+                </div>
+                <!-- //first section -->
+            </div>
+        </div>
+        <!-- //product left -->
+        <!-- product right -->
+        <div class="col-lg-3 mt-lg-0 mt-4 p-lg-0">
+            <div class="side-bar p-sm-4 p-3">
+                <div class="search-hotel border-bottom py-2">
+                    <h3 class="agileits-sear-head mb-3">Search Here..</h3>
+                    <form action="#" method="post">
+                        <input type="search" placeholder="Product name..." name="search" required="">
+                        <input type="submit" value=" ">
+                    </form>
+                </div>
+                <!-- Loại sản phẩm -->
+                <div class="range border-bottom py-2">
+                    <h3 class="agileits-sear-head mb-3">Loại sản phẩm</h3>
+                    <div class="w3l-range">
+                        <ul>
+                            @Html.Action("Type", "Home")
+                        </ul>
+                    </div>
+                </div>
+                <!-- //Loại sản phẩm -->
+                
+            </div>
+            <!-- //product right -->
+        </div>
+    </div>
+</div>
+
+@section Slider{
+    <!-- banner-2 -->
+    <div class="page-head_agile_info_w3l">
+
+    </div>
+    <!-- //banner-2 -->
+    <!-- page -->
+    <div class="services-breadcrumb">
+        <div class="agile_inner_breadcrumb">
+            <div class="container">
+                <ul class="w3_short">
+                    <li>
+                        @Html.ActionLink("HOME", "index", "Home")
+                        <i>|</i>
+                    </li>
+                    <li>Sản phẩm theo loại</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- //page -->
+}
+
+

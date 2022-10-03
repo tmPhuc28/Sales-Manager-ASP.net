@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = null;
+    
+}
+
+<h4 style="color:red; text-align:center">@ViewBag.Thongbao</h4>
+<div class="modal-dialog" role="document">
+    <div class="modal-content">
+
+        <div class="modal-header">
+            <h5 class="modal-title text-center">TRANG ĐĂNG NHẬP ADMIN</h5>
+           
+        </div>
+        <div class="modal-body">
+            <form action="#" method="post">
+                @using (Html.BeginForm())
+                {
+                    @Html.ValidationSummary(true)
+                    <div class="form-group">
+                        <label class="col-form-label">Tên đăng nhập</label>
+                        <input type="text" class="form-control" name="username" placeholder="Nhập tên đăng nhập">
+                        @ViewData["Loi1"]
+                    </div>
+                    <div class="form-group">
+                        <label class="col-form-label">Mật khẩu</label>
+                        <input type="password" class="form-control" placeholder="Nhập mật khẩu " name="password">
+                        @ViewData["Loi2"]
+                    </div>
+                    <div class="right-w3l">
+                        <input type="submit" class="form-control" value="Đăng nhập">
+                    </div>
+                }
+            </form>
+        </div>
+    </div>
+</div>

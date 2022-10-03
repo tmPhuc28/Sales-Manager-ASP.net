@@ -1,0 +1,99 @@
+﻿@using Doanltweb.Models
+@model List<Giohang>
+@{
+    ViewBag.Title = "DatHang";
+}
+
+<div class="privacy py-sm-5 py-4">
+    <div class="container py-xl-4 py-lg-2">
+        <!-- tittle heading -->
+        <h3 class="tittle-w3l text-center mb-lg-5 mb-sm-4 mb-3">
+            <span>G</span>iỏ
+            <span>H</span>àng
+        </h3>
+        <!-- //tittle heading -->
+        <div class="checkout-right">
+            <h4 class="mb-sm-4 mb-3">
+                <span>Sản phẩm</span>
+                bạn đã thêm vào giỏ hàng:
+            </h4>
+            <div class="table-responsive">
+                <table class="timetable_sub">
+                    <thead>
+                        <tr>
+                            <th>Mã sản phẩm</th>
+                            <th>Tên sản phẩm</th>
+                            <th>Hình sản phẩm</th>
+                            <th>Số lượng sản phẩm</th>
+
+                            <th>Đơn giá</th>
+                            <th>Tổng tiền</th>
+                           
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        @foreach (var i in Model)
+                        {
+                            <tr class="rem1">
+                                <td class="invert">@i.iMaSP</td>
+                                <td class="invert">@i.sTenSP</td>
+                                <td class="invert-image">
+                                    <a href="single.html">
+                                        <img src="@i.sHinhDD" alt="@i.iMaSP " class="img-responsive">
+                                    </a>
+                                </td>
+                                @using (Html.BeginForm("CapnhatGiohang", "Giohang", new { @iMaSP = i.iMaSP }))
+                                {
+                                    <td class="invert">@i.iSoLuong</td>
+                                    <td class="invert">@String.Format("{0:0,0}", i.dGiaBan) đ</td>
+                                    <td class="invert">@String.Format("{0:0,0}", i.dThanhTien) đ</td>
+                                }
+                            </tr>
+                        }
+                        <tr style="font-weight:bold; text-align:right; color:red">
+                            <td colspan="4">Số lượng sản phẩm: @ViewBag.TongSoLuong </td>
+                            <td colspan="5">Tổng tiền: @String.Format("{0:0,0}", ViewBag.TongTien) đ</td>
+                        </tr>
+                        <tr style="font-weight:bold; text-align:right; color:antiquewhite">
+                            <td colspan="9">@Html.ActionLink("Quay lại", "Giohang","Giohang")</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<h2 style="text-align:center">Thông tin hàng hóa</h2>
+@{
+    taiKhoanTV kh = (taiKhoanTV)Session["taiKhoan"];
+}
+<table align="center">
+    @Html.ValidationSummary(true)
+    <tr style="height:40px">
+        <td>Họ và tên:</td>
+        <td style="font-weight:bold">@kh.hoDem @kh.tenTV</td>
+    </tr>
+    <tr style="height:40px">
+        <td>Đại chỉ:</td>
+        <td style="font-weight:bold">@kh.diaChi</td>
+    </tr>
+    <tr style="height:40px">
+        <td>Số điện thoại:</td>
+        <td style="font-weight:bold">@kh.soDT</td>
+    </tr>
+    <tr style="height:40px">
+        <td>Ngày đặt hàng:</td>
+        <td style="font-weight:bold">@DateTime.Now.ToShortDateString()</td>
+    </tr>
+    <tr style="height:40px">
+        <td>Ngày giao hàng:</td>
+        <td style="font-weight:bold"><input type="date" name="ngayGH" /></td>
+    </tr>
+    <tr style="height:40px">
+        <td></td>
+        <td>
+            <button>@Html.ActionLink("XÁC NHẬN ĐẶT HÀNG", "Xacnhandathang", "Giohang")</button>
+        </td>
+    </tr>
+</table>

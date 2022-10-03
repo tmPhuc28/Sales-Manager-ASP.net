@@ -1,0 +1,152 @@
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\Doanltweb.dll.config
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\Doanltweb.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\Doanltweb.pdb
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\csc.exe
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\csc.exe.config
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\csc.rsp
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\csi.exe
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\csi.exe.config
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\csi.rsp
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\System.AppContext.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\System.Collections.Immutable.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\System.Console.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\System.Globalization.Calendars.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\System.IO.Compression.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\System.IO.FileSystem.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\System.Net.Http.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\System.Net.Sockets.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\System.Reflection.Metadata.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\System.ValueTuple.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\System.Xml.XPath.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\vbc.exe
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\vbc.exe.config
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\vbc.rsp
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\VBCSCompiler.exe
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\roslyn\VBCSCompiler.exe.config
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\Microsoft.Web.Infrastructure.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\System.Web.Helpers.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\System.Web.Mvc.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\System.Web.Razor.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\System.Web.Webpages.Deployment.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\System.Web.Webpages.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\System.Web.Webpages.Razor.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\System.Web.Razor.xml
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\System.Web.Webpages.xml
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\System.Web.Webpages.Deployment.xml
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\System.Web.Webpages.Razor.xml
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\System.Web.Helpers.xml
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\System.Web.Mvc.xml
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\obj\Debug\Doanltweb.csprojAssemblyReference.cache
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\obj\Debug\Doanltweb.csproj.CoreCompileInputs.cache
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\obj\Debug\Doanltweb.csproj.CopyComplete
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\obj\Debug\Doanltweb.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\obj\Debug\Doanltweb.pdb
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\PagedList.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\PagedList.Mvc.dll
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\PagedList.xml
+D:\Document\Lap trinh Web\Đồ án lập trình web\Doanltweb\bin\PagedList.Mvc.xml
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\Doanltweb.dll.config
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\Doanltweb.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\Doanltweb.pdb
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\csc.exe
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\csc.exe.config
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\csc.rsp
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\csi.exe
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\csi.exe.config
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\csi.rsp
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\System.AppContext.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\System.Collections.Immutable.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\System.Console.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\System.Globalization.Calendars.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\System.IO.Compression.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\System.IO.FileSystem.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\System.Net.Http.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\System.Net.Sockets.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\System.Reflection.Metadata.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\System.ValueTuple.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\System.Xml.XPath.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\vbc.exe
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\vbc.exe.config
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\vbc.rsp
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\VBCSCompiler.exe
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\roslyn\VBCSCompiler.exe.config
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\Microsoft.Web.Infrastructure.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\PagedList.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\PagedList.Mvc.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\System.Web.Helpers.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\System.Web.Mvc.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\System.Web.Razor.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\System.Web.Webpages.Deployment.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\System.Web.Webpages.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\System.Web.Webpages.Razor.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\PagedList.xml
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\PagedList.Mvc.xml
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\System.Web.Razor.xml
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\System.Web.Webpages.xml
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\System.Web.Webpages.Deployment.xml
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\System.Web.Webpages.Razor.xml
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\System.Web.Helpers.xml
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\System.Web.Mvc.xml
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\obj\Debug\Doanltweb.csproj.CoreCompileInputs.cache
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\obj\Debug\Doanltweb.csproj.CopyComplete
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\obj\Debug\Doanltweb.dll
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\obj\Debug\Doanltweb.pdb
+D:\Document\Lap trinh Web\DoAn_LaptrinhWeb\Doanltweb\obj\Debug\Doanltweb.csproj.AssemblyReference.cache

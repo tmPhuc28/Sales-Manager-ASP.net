@@ -1,0 +1,84 @@
+﻿@using Doanltweb.Models
+@model List<Giohang>
+@{
+    ViewBag.Title = "GioHang";
+}
+
+<!-- checkout page -->
+<div class="privacy py-sm-5 py-4">
+    <div class="container py-xl-4 py-lg-2">
+        <!-- tittle heading -->
+        <h3 class="tittle-w3l text-center mb-lg-5 mb-sm-4 mb-3">
+            <span>G</span>iỏ
+            <span>H</span>àng
+        </h3>
+        <!-- //tittle heading -->
+        <div class="checkout-right">
+            <h4 class="mb-sm-4 mb-3">
+                <span>Sản phẩm</span>
+                bạn đã thêm vào giỏ hàng:
+            </h4>
+            <div class="table-responsive">
+                <table class="timetable_sub">
+                    <thead>
+                        <tr>
+                            <th>Mã sản phẩm</th>
+                            <th>Tên sản phẩm</th>
+                            <th>Sản phẩm</th>
+                            <th>Số lượng sản phẩm</th>
+
+                            <th>Đơn giá</th>
+                            <th>Tổng tiền</th>
+                            <th></th>
+                            <th></th>
+                            <th ></th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        @foreach (var i in Model)
+                        {
+                            <tr class="rem1">
+                                <td class="invert">@i.iMaSP</td>
+                                <td class="invert">@i.sTenSP</td>
+                                <td class="invert-image">
+                                    <a href="single.html">
+                                        <img src="@i.sHinhDD" alt="@i.iMaSP " class="img-responsive">
+                                    </a>
+                                </td>
+                                @using (Html.BeginForm("CapnhatGiohang", "Giohang", new { @iMaSP = i.iMaSP }))
+                                {
+                                    <td class="invert">
+                                        <input type="number" min="1" name="txtsoLuong" value="@i.iSoLuong" style="background-color:antiquewhite" />
+                                    </td>
+                                    <td class="invert">@String.Format("{0:0,0}", i.dGiaBan) đ</td>
+                                    <td class="invert">@String.Format("{0:0,0}", i.dThanhTien) đ</td>
+                                    <td class="invert">
+                                        @Html.ActionLink("Xóa", "XoaGiohang", new { @iMaSP = i.iMaSP })
+                                    </td>
+                                    <td class="invert">
+                                        <a href="@Url.Action("Details", "Home", new { id = i.iMaSP })">
+                                            Chi tiết
+                                        </a>
+                                    </td>
+                                    <td><input type="submit" value="Cập nhật" /></td>
+                                }
+                            </tr>
+                        }
+                        <tr style="font-weight:bold; text-align:right; color:red">
+                            <td colspan="4">Số lượng sản phẩm: @ViewBag.TongSoLuong </td>
+                            <td colspan="5">Tổng tiền: @String.Format("{0:0,0}", ViewBag.TongTien) đ</td>
+                        </tr>
+                        <tr style="font-weight:bold; text-align:right; color:antiquewhite">
+                            <td colspan="9">@Html.ActionLink("Xóa giỏ hàng","XoaTatcaGioHang")</td>    
+                        </tr>
+                        <tr style="font-weight:bold; text-align:right; color:burlywood">
+                            <td colspan="9">@Html.ActionLink("ĐẶT HÀNG","Dathang","Giohang")</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //checkout page -->

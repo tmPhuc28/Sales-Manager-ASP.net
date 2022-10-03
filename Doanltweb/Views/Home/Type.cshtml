@@ -1,0 +1,9 @@
+﻿@model IEnumerable<Doanltweb.Models.loaiSP>
+
+@foreach (var i in Model)
+{
+    <li class="mb-3" ><a href="@Url.Action("Producttype","Home", new { id = i.maLoai })">@i.loaiHang</a></li>
+    
+}
+
+

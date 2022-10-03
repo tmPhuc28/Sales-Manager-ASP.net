@@ -1,0 +1,151 @@
+﻿@model Doanltweb.Models.sanPham
+
+@{
+    ViewBag.Title = "Xoasanpham";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="">
+
+    <!-- content -->
+    <div class="container-fluid">
+        <div class="table-responsive">
+            <h2 class="my-5" style="text-align:center">Chi tiết sản phẩm</h2>
+            <hr />
+            <table class="timetable_sub">
+                <tr>
+                    <td class="td">
+                        <b>Mã sản phẩm :</b>
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(model => model.maSP)
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="td">
+                        <b>Tên sản phẩm :</b>
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(model => model.tenSP)
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="td">
+                        <b>Hình đại diện :</b>
+                    </td>
+
+                    <td>
+                        <img src="@Url.Content(Model.hinhDD)" width="120px" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td">
+                        <b>Loại sản phẩm :</b>
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(model => model.maSP)
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td">
+                        <b>Ngày đăng :</b>
+                    </td>
+
+                    <td>
+                        @String.Format("{0:dd/MM/yyyy}", Model.ngayDang)
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="td">
+                        <b>Nội dung tóm tắt :</b>
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(model => model.ndTomTat)
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="td">
+                        <b>Nội dung :</b>
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(model => model.noiDung)
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="td">
+                        <b>Giá bán :</b>
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(model => model.giaBan)
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="td">
+                        <b>Giảm giá :</b>
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(model => model.giamGia)
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="td">
+                        <b>Đã duyệt :</b>
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(model => model.daDuyet)
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="td">
+                        <b>Nhà sản xuất :</b>
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(model => model.nhaSanXuat)
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="td">
+                        <b>Đơn vị tính :</b>
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(model => model.dvt)
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-actions no-color">
+                <input type="submit" value="Xóa" class="btn btn-default" />
+                |
+                <button class="my-4"> @Html.ActionLink("Trở về", "sanpham")</button>
+            </div>
+        }
+    </div>
+    <!-- //content -->
+
+</div>
+<!-- main content end-->
+
